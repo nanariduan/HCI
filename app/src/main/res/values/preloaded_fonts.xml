@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/alata</item>
+        <item>@font/bree_serif</item>
+        <item>@font/carter_one</item>
+        <item>@font/lato</item>
+        <item>@font/lato_thin</item>
+        <item>@font/nunito_sans</item>
+        <item>@font/nunito_sans_extrabold</item>
+        <item>@font/nunito_sans_semibold</item>
+    </array>
+</resources>
