@@ -6,14 +6,14 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.example.hci.databinding.EditInfo2Binding
+import com.example.hci.databinding.Edit2Binding
 
-class EditInfo2Activity:AppCompatActivity() {
-    lateinit var binding: EditInfo2Binding
+class Edit2Activity:AppCompatActivity() {
+    lateinit var binding: Edit2Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = EditInfo2Binding.inflate(layoutInflater)
+        binding = Edit2Binding.inflate(layoutInflater)
         setContentView(binding.root)
         initLayout()
     }

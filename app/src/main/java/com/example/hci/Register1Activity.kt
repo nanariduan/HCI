@@ -2,10 +2,8 @@ package com.example.hci
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.example.hci.databinding.LoginBinding
 import com.example.hci.databinding.Register1Binding
 
 class Register1Activity:AppCompatActivity() {

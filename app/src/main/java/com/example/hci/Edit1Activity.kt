@@ -20,10 +20,9 @@ class Edit1Activity:AppCompatActivity() {
         val next = findViewById<ImageButton>(R.id.nextbtn)
 
         next.setOnClickListener {
-                val intent = Intent(this, EditInfo2Activity::class.java)
+                val intent = Intent(this, Edit2Activity::class.java)
                 startActivity(intent)
         }
-
 
     }
 }
