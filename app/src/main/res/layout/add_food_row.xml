@@ -9,10 +9,24 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_text"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:textColor="@color/blue"
         android:padding="15dp"
-        android:text="TextView" />
+        android:text="TextView"/>
+    <TextView
+        android:id="@+id/calView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="kcal"
+        android:gravity="right"
+        />
 
 
 </LinearLayout>

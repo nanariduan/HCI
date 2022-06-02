@@ -1,6 +1,7 @@
 package com.example.hci
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -29,7 +30,8 @@ class RecordCalorieFragment :Fragment(){
         val fragment = DietTipsFragment()
         val breakfast =  binding.root.findViewById<Button>(R.id.submit)
         breakfast.setOnClickListener {
-            childFragmentManager.beginTransaction().replace(R.id.viewpager, fragment).commit()
+            val intent = Intent(this@RecordCalorieFragment.context, AddFoodActivity::class.java)
+            startActivity(intent)
         }
 
     }

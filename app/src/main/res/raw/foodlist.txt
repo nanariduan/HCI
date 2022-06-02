@@ -1,0 +1,128 @@
+Chocolate milk (1 cup)
+208
+Low fat (2%) milk
+121
+Pudding (any flavor) (1/2 cup)
+161
+Skim milk (1 cup)
+86
+Yogurt (fruit-flavored, low fat) (1 cup)
+225
+Yogurt (frozen, low fat) (1 cup)
+220
+Black eye peas (1/2 cup)
+134
+Garbanzo beans (chick peas) (1 cup)
+269
+Navy beans (1 cup)
+259
+Pinto beans (1 cup)
+235
+Refried beans (1/2 cup)
+142
+White beans (1 cup)
+249
+Apple (1 medium)
+81
+Apple juice (1 cup)
+111
+Applesauce (1 cup)
+232
+Banana (1)
+105
+Cantaloupe (1 cup)
+57
+Dates (dried)(10)
+228
+Fruit Roll-Ups (1 roll)
+50
+Grapes (1 cup)
+114
+Grape Juice (1 cup)
+96
+Orange (1)
+65
+Orange Juice (1 cup)
+112
+Pear (1)
+98
+Pineapple (1 cup)
+77
+Prunes (dried)(10)
+201
+Raisins (1/2 cup)
+302
+Raspberries (1 cup)
+61
+Strawberries (1 cup)
+50
+Carrot (1 medium)
+31
+Corn (1/2 cup)
+89
+Beans, Lima (1/2 cup cooked)
+108
+Peas, green (1/2 cup)
+63
+Potato (1 large, baked, plain)
+220
+Sweet Potato (1 large)
+118
+Three-bean salad (1/2 cup)
+90
+Bagel (1)
+165
+Biscuit (1)
+77
+Bread (white)(1 slice)
+61
+Bread (whole wheat)(1 slice)
+55
+Cereal, ready to eat (1 cup)
+110
+Cookie (oatmeal raisin)(1)
+62
+Cornbread (1 square)
+178
+Cream of Rice (3/4 cup)
+95
+Cream of Wheat (3/4 cup)
+96
+English Muffin
+130
+Fig Bar (1)
+50
+Graham crackers (2 squares)
+60
+Granola bar (honey and oats) (1 ounce)
+125
+Hamburger bun (1)
+119
+Hot dog bun (1)
+119
+Noodles (spaghetti)(1 cup)
+159
+Oatmeal (1/2 cup)
+66
+Oatmeal, Quaker instant, flavored (1 packet)
+110
+Pancake (4 inch diameter)
+41
+Pizza (cheese)(1 slice)
+290
+Popcorn, plain (1 cup, popped)
+26
+Pretzels (1 ounce)
+106
+Rice, white (1 cup)
+223
+Rice, brown (1 cup)
+232
+Saltines (5 crackers)
+60
+Tortilla, flour (1)
+85
+TriscuitsTM (3 crackers)
+60
+Waffles (2, 3.5" x 5.5")
+130
