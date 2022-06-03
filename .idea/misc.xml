@@ -21,12 +21,13 @@
         <entry key="app/src/main/res/layout/edit_info.xml" value="0.23624114990234377" />
         <entry key="app/src/main/res/layout/edit_info_1.xml" value="0.2463768115942029" />
         <entry key="app/src/main/res/layout/edit_info_2.xml" value="0.2463768115942029" />
+        <entry key="app/src/main/res/layout/food_row.xml" value="0.3510997606360394" />
         <entry key="app/src/main/res/layout/home.xml" value="0.3734375" />
         <entry key="app/src/main/res/layout/homepage.xml" value="0.2658761508222939" />
         <entry key="app/src/main/res/layout/login.xml" value="0.31472625732421877" />
         <entry key="app/src/main/res/layout/mainpage.xml" value="0.3734375" />
         <entry key="app/src/main/res/layout/quick_add.xml" value="0.23546346028645848" />
-        <entry key="app/src/main/res/layout/record_calorie.xml" value="0.3887954711914062" />
+        <entry key="app/src/main/res/layout/record_calorie.xml" value="0.3183334350585937" />
         <entry key="app/src/main/res/layout/register_1.xml" value="0.26365051269531253" />
         <entry key="app/src/main/res/layout/register_2.xml" value="0.3304702758789062" />
         <entry key="app/src/main/res/layout/register_test.xml" value="0.35833333333333334" />

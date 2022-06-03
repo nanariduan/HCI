@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hci.databinding.AddFoodRowBinding
 
-class FoodAdapter(val items:ArrayList<FoodData>): RecyclerView.Adapter<FoodAdapter.ViewHolder>() {
+class FoodAdapter(val items:ArrayList<FoodData>): RecyclerView.Adapter<FoodAdapter.ViewHolder>(){
 
     interface OnItemClickListener{
         fun OnItemClick(data:FoodData)
@@ -15,6 +15,7 @@ class FoodAdapter(val items:ArrayList<FoodData>): RecyclerView.Adapter<FoodAdapt
     inner class ViewHolder(val binding: AddFoodRowBinding)  :  RecyclerView.ViewHolder(binding.root) {
             init{
                 binding.textView.setOnClickListener{
+                    itemClickListener?.OnItemClick(items[adapterPosition])
                 }
             }
     }
