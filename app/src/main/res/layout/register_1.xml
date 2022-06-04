@@ -98,7 +98,8 @@
             android:backgroundTint="@color/white"
             android:layout_height="wrap_content"
             android:background="@drawable/round_text"
-            android:hint="Weight" />
+            android:hint="Weight"
+            android:inputType="number"/>
     </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -116,7 +117,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/round_text"
             android:backgroundTint="@color/white"
-            android:hint="Age" />
+            android:hint="Age"
+            android:inputType="number"/>
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -138,7 +140,8 @@
             android:backgroundTint="@color/white"
             android:layout_height="wrap_content"
             android:background="@drawable/round_text"
-            android:hint="Height" />
+            android:hint="Height"
+            android:inputType="number"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 

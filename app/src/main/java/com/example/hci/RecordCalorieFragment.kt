@@ -5,40 +5,54 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.hci.databinding.RecordCalorieBinding
-import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
 
 class RecordCalorieFragment :Fragment(){
     private lateinit var binding: RecordCalorieBinding
     val breakfastdata: ArrayList<FoodData> = ArrayList()
-    lateinit var adapter: ArrayAdapter<ArrayList<FoodData>>
+    val lunchdata: ArrayList<FoodData> = ArrayList()
+    val dinnerdata: ArrayList<FoodData> = ArrayList()
+    val snackdata: ArrayList<FoodData> = ArrayList()
+    lateinit var adapter: FoodListAdapter
     private lateinit var listView : ListView
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
+        initdata()
         binding = RecordCalorieBinding.inflate(layoutInflater)
+        val adapter1 = FoodListAdapter(this@RecordCalorieFragment.context,breakfastdata)
+        val adapter2 = FoodListAdapter(this@RecordCalorieFragment.context,lunchdata)
+        val adapter3 = FoodListAdapter(this@RecordCalorieFragment.context,dinnerdata)
+        val adapter4 = FoodListAdapter(this@RecordCalorieFragment.context,snackdata)
+        binding.linlay1.adapter = adapter1
+        binding.linlay2.adapter = adapter2
+        binding.linlay3.adapter = adapter3
+        binding.linlay4.adapter = adapter4
+
         return binding.root
 
     }
     private fun initdata(){
-            val scan2 =Scanner(activity?.openFileInput("breakfast.txt"))
-            readFileScan(scan2,breakfastdata)
+            val scan1 =Scanner(activity?.openFileInput("breakfast.txt"))
+            readFileScan(scan1,breakfastdata)
+            val scan2 =Scanner(activity?.openFileInput("lunch.txt"))
+            readFileScan(scan2,lunchdata)
+            val scan3 =Scanner(activity?.openFileInput("dinner.txt"))
+            readFileScan(scan3,dinnerdata)
+            val scan4 =Scanner(activity?.openFileInput("snack.txt"))
+            readFileScan(scan4,snackdata)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initdata()
-        binding.linlay.adapter = ArrayAdapter(this, R.layout.food_row, breakfastdata)
+
         val b = Bundle()
         val breakfast =  binding.root.findViewById<Button>(R.id.addBreakfast)
         breakfast.setOnClickListener {
@@ -69,6 +83,12 @@ class RecordCalorieFragment :Fragment(){
             val intent = Intent(this@RecordCalorieFragment.context, AddFoodActivity::class.java)
             b.putInt("key", 4)
             intent.putExtras(b)
+            startActivity(intent)
+        }
+
+        val submit =  binding.root.findViewById<Button>(R.id.submit)
+        submit.setOnClickListener {
+            val intent = Intent(this@RecordCalorieFragment.context, ResultActivity::class.java)
             startActivity(intent)
         }
 

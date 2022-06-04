@@ -50,7 +50,10 @@ class LoginActivity:AppCompatActivity() {
 
 
             arrname.zip(arrpass){arrname,arrpass->(if (user.equals(arrname) && pw.equals(arrpass)){
+                val b = Bundle()
                 val intent = Intent(this, MainActivity::class.java)
+                b.putString("name",user)
+                intent.putExtras(b)
                       startActivity(intent)
                 nextPage = true
              }

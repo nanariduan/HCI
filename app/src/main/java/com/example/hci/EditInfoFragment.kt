@@ -55,12 +55,17 @@ class EditInfoFragment :Fragment(){
 
     private fun init(){
         val btn =  binding.root.findViewById<Button>(R.id.regisbtn2)
+        val hmbtn =  binding.root.findViewById<Button>(R.id.homebtn)
 
 
         btn.setOnClickListener {
 
 
             val intent = Intent(this@EditInfoFragment.context, Edit1Activity::class.java)
+            startActivity(intent)
+        }
+        hmbtn.setOnClickListener {
+            val intent = Intent(this@EditInfoFragment.context, HomepageActivity::class.java)
             startActivity(intent)
         }
     }

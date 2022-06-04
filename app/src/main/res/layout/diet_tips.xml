@@ -56,4 +56,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nutrition" />
+
+    <Button
+        android:id="@+id/fitness"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/blue"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:text="Fitness"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipes" />
+    <Button
+        android:id="@+id/mentalhealth"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/blue"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:text="Mental Health"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fitness" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,10 +14,11 @@ import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup
 import org.jsoup.parser.Parser
 
-class RssNutActivity(): AppCompatActivity() {
+class RssActivity(): AppCompatActivity() {
     lateinit var binding: RssBinding
     lateinit var adapter: MyTipsAdapter
-    var rssurl = "https://nutritionfacts.org/feed/"
+    var value = 0
+    var rssurl = ""
 
     val scope = CoroutineScope(Dispatchers.IO)
 
@@ -47,7 +48,17 @@ class RssNutActivity(): AppCompatActivity() {
 
 
     private fun init(){
+        val b = getIntent().getExtras()
+        value = -1 // or other values
+        if(b != null)
+            value = b.getInt("key")
 
+        when(value){
+            1->rssurl ="https://nutritionfacts.org/feed/"
+            2->rssurl ="https://www.bonappetit.com/feed/recipes-rss-feed/rss"
+            3->rssurl ="https://www.runtastic.com/blog/en/feed/"
+            4->rssurl ="https://news.google.com/rss/search?q=mental+health&hl=en-US&gl=US&ceid=US%3Aen&x=1571747133.7604"
+        }
         binding.swipe.setOnRefreshListener {
             binding.swipe.isRefreshing = true
             getrssnews()
