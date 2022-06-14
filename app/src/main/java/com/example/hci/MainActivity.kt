@@ -2,6 +2,7 @@ package com.example.hci
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.FragmentTransaction
 import com.example.hci.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -22,12 +23,16 @@ class MainActivity : AppCompatActivity() {
         initLayout()
     }
 
-    private fun initLayout() {
+    fun initLayout() {
         binding.viewpager.adapter = MyViewPagerAdapter(this)
         TabLayoutMediator(binding.tablayout, binding.viewpager) { tab, position ->
             tab.text = textarr[position]
             tab.setIcon(iconarr[position])
         }.attach()
 
+    }
+
+    fun reload(){
+        binding.viewpager.adapter = MyViewPagerAdapter(this)
     }
 }

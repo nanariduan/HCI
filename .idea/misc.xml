@@ -15,7 +15,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/add_food.xml" value="0.3357223510742187" />
         <entry key="app/src/main/res/layout/add_food_row.xml" value="0.3734375" />
-        <entry key="app/src/main/res/layout/bmi.xml" value="0.3734375" />
+        <entry key="app/src/main/res/layout/bmi.xml" value="0.25806451612903225" />
         <entry key="app/src/main/res/layout/diet_tips.xml" value="0.3153528849283854" />
         <entry key="app/src/main/res/layout/diet_tips_old.xml" value="0.20833333333333334" />
         <entry key="app/src/main/res/layout/edit_1.xml" value="0.15096251266464034" />
@@ -24,6 +24,7 @@
         <entry key="app/src/main/res/layout/edit_info_1.xml" value="0.2463768115942029" />
         <entry key="app/src/main/res/layout/edit_info_2.xml" value="0.2463768115942029" />
         <entry key="app/src/main/res/layout/food_row.xml" value="0.3510997606360394" />
+        <entry key="app/src/main/res/layout/graph.xml" value="0.15217391304347827" />
         <entry key="app/src/main/res/layout/home.xml" value="0.3734375" />
         <entry key="app/src/main/res/layout/homepage.xml" value="0.2658761508222939" />
         <entry key="app/src/main/res/layout/login.xml" value="0.31472625732421877" />

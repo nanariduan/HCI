@@ -44,4 +44,5 @@ class FoodListAdapter(private val context: Context?,
 
         return rowView
     }
+
 }
